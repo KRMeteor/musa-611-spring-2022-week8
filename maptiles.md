@@ -1,0 +1,3 @@
+You can use services such as Mapbox to create custom tiles. You might want to create custom tiles when there's some data that you want to include on your map styled in specific and non-trivial ways, and you don't need that data to be interactive.
+
+You can [use your custom tiles in Leaflet](https://docs.mapbox.com/studio-manual/guides/publish-your-style/#mapboxjs-and-leaflet), or you can use them with other mapping libraries such as [Mapbox GL JS](https://docs.mapbox.com/studio-manual/guides/publish-your-style/#mapboxjs-and-leaflet) (Mapbox has a rich set of [tutorials](https://docs.mapbox.com/help/tutorials/?product=Mapbox+GL+JS) and [examples](https://docs.mapbox.com/mapbox-gl-js/example/) for doing so).

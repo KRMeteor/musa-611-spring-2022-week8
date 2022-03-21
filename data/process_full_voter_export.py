@@ -83,11 +83,16 @@ def filter_by_party(records, party):
 
 
 if __name__ == '__main__':
+    if len(sys.argv) > 1:
+        precinct = sys.argv[1]
+    else:
+        precinct = '3927'
+
     # I'm interested in my precinct: Ward 39, Div 27.
     data = filter_by_party(
         filter_by_precinct(
             read_fve_data(sys.stdin),
-            '3927',
+            precinct,
         ),
         'D',
     )
