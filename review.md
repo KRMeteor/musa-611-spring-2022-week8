@@ -66,3 +66,11 @@ sequenceDiagram
     Browser-->>Browser: Process and display data
     deactivate Browser
 ```
+
+## Layouts
+
+I posted a video about mimicking a scrolling story map on YouTube at https://youtu.be/HU8-Hu24Qu4. Remember that everything on a page is boxes.
+
+A few references:
+- [What's the Difference Between Flexbox and Grid?](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/) (CSS Tricks)
+- Deciding between [Grid and Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout#grid_and_flexbox) layouts (MDN)
